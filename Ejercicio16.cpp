@@ -8,7 +8,12 @@ int main() {
 
     cout << "Ingrese cantidad de terminos: ";
     cin >> n;
+    
+    if (n <= 0) {
+    cout << "Error: debe ingresar un número positivo mayor que cero." << endl;
+    return 1;
 
+}
     cout << "Serie Fibonacci: ";
     for (int i = 0; i < n; i++) {
         cout << a << " ";
@@ -20,3 +25,8 @@ int main() {
     cout << endl;
     return 0;
 }
+
+
+
+
+
