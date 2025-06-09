@@ -3,12 +3,13 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n, a = 0, b = 1, c;
 
+int main() { 
+    int n, a = 0, b = 1, c;
+    //entradas
     cout << "Ingrese cantidad de terminos: ";
     cin >> n;
-    
+    //procesos y salida en "a"
     if (n <= 0) {
     cout << "Error: debe ingresar un número positivo mayor que cero." << endl;
     return 1;
